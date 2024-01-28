@@ -1,4 +1,5 @@
 # Longest Common Substring
+Tags: Dynamic Programming, Medium, Classic
 
 ## Intuition
 We cannot use Brute Force since to generate all the subsequence
@@ -73,3 +74,8 @@ def lcs(s1, s2):
                 dp[i][j] = max(dp[i-1][j], dp[i][j-1])
     return dp[m][n]
 ```
+
+## Key Learning
+* When dealing with longest subsequence we can consider using
+dynamic programming.
+* Break down problems into it's subproblem and think carefully.

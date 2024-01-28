@@ -7,6 +7,6 @@ Leetcode ID: [starvingsloth](https://leetcode.com/starvingsloth/)
 
 Stats :
 * Easy		: 0000
-* Medium 	: 0000
+* Medium 	: 0001
 * Hard		: 0000
 
