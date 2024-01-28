@@ -1,0 +1,9 @@
+4
+abcde
+ace
+abc
+def
+abcdefg
+efgabcd
+mnopqrst
+nprsmoqt
