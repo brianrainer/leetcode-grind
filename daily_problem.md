@@ -4,6 +4,7 @@ February 2024
 | Date | Link | Solution |
 | ---- | ---- | -------- |
 | 2024-01-14 | [2149. Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/) | [Explanation](./2149-rearrange-array-elements/notes.md) | 
+| 2024-01-13 | [2108. Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/description) | [Explanation](./2108-find-first-palindrome/notes.md) |
 
 
 
