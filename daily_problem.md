@@ -1,11 +1,15 @@
 # Daily Problem Tracker
 
-January 2024
+<details>
+<summary> January 2024 </summary>
+
 | Date | Link | Solution |
 | ---- | ---- | -------- |
 | 2024-01-30 | [150. Evalueate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/?envType=daily-question&envId=2024-01-30) | [Explanation](./0150-reverse-polish-notation/notes.md) |
 | 2024-01-25 | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/solutions/?envType=daily-question&envId=2024-01-25) | [Explanation](./1143-longest-common-subsequence/notes.md) |
 | 2024-01-W5 | [256. Paint House](https://leetcode.com/problems/paint-house/description/?envType=weekly-question&envId=2024-01-29) | [Explanation](./0256-paint-house/notes.md) |
+
+</details>
 
 
 <details>
