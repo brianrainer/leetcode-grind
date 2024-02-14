@@ -1,5 +1,12 @@
 # Daily Problem Tracker
 
+February 2024
+| Date | Link | Solution |
+| ---- | ---- | -------- |
+| 2024-01-14 | [2149. Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/) | [Explanation](./2149-rearrange-array-elements/notes.md) | 
+
+
+
 <details>
 <summary> January 2024 </summary>
 
