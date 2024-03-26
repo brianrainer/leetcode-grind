@@ -1,5 +1,3 @@
-import heapq
-
 def solve(n,t,arr):
     arr.sort()
     arr.reverse()
@@ -7,19 +5,35 @@ def solve(n,t,arr):
     if arr[0] > t:
         return -1
 
-    ans = []
+    cnt = sum([1 for x in arr if x == t])
+    arr = [x for x in arr if x != t]
 
-    for x in arr:
-        is_found = False
-        for j in range(len(ans)):
-            if ans[j] + x <= t:
-                ans[j] += x
-                is_found = True
-                break
-        if not is_found:
-            ans.append(x)
+    m = len(arr)
+    res = m
+    server = []
 
-    return len(ans)
+    def dfs(i):
+        nonlocal res
+        
+        if len(server) >= res:
+            return
+        
+        if i == m:
+            res = min(res, len(server))
+            return
+
+        for j in range(len(server)):
+            if server[j] + arr[i] <= t:
+                server[j] += arr[i]
+                dfs(i+1)
+                server[j] -= arr[i]
+        
+        server.append(arr[i])
+        dfs(i+1)
+        server.pop()
+
+    dfs(0)
+    return res + cnt
 
 def fast():
     import io,os,sys
@@ -38,4 +52,4 @@ def fast_tc():
         sys.stdout.write(str(solve(n,t,arr)) + "\n")
         tc -= 1
 
-fast_tc()
+fast()
